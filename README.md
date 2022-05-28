@@ -12,6 +12,10 @@
 ## Project setup
 
 ```
+install XAMPP web server
+
+git clone project
+
 npm install
 
 npm run dev
