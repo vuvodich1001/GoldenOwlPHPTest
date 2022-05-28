@@ -24,6 +24,13 @@ npm run dev
 php artisan serve
 ```
 
+### Description
+
+Products in cart should be persistent.
+
+-   In this case, The best practice with laravel. We should create cart table in database and save cart information in this cart table.
+-   In this project I use session to handle it.
+
 ### Author
 
 _Author: Vu Nguyen_HTTT2019_
