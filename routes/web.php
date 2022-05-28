@@ -22,8 +22,5 @@ Route::group(['prefix' => 'cart'], function () {
     Route::get('increase/{id}', [CartController::class, 'increase'])->name('cart.increase');
     Route::get('decrease/{id}', [CartController::class, 'decrease'])->name('cart.decrease');
     Route::get('remove/{id}', [CartController::class, 'remove'])->name('cart.remove');
-    Route::get('removeCart', [CartController::class, 'removeCart'])->name('cart.removeCart');
-    Route::get('test', function () {
-        return 'test';
-    });
+    // Route::get('removeCart', [CartController::class, 'removeCart'])->name('cart.removeCart');
 });

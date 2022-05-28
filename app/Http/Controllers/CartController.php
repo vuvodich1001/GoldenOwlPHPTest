@@ -62,7 +62,7 @@ class CartController extends Controller {
         Session::put('cart', $carts);
         return redirect()->route('home.index');
     }
-    public function removeCart() {
-        Session::forget('cart');
-    }
+    // public function removeCart() {
+    //     Session::forget('cart');
+    // }
 }
