@@ -16,10 +16,9 @@ install XAMPP web server
 
 git clone project
 
-npm install
+composer install
 
-npm run dev
-
+php artisan key:generate
 ```
 
 ### Compiles and hot-reloads for development
